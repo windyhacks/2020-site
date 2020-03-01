@@ -11,6 +11,7 @@ import { Link } from 'gatsby'
 import Nav from './Nav'
 import Card from './Card'
 import EmailForm from './EmailForm'
+import { theme } from '../theme'
 
 const headerFrames = keyframes`
   from {
