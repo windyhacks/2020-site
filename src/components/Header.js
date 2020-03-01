@@ -8,7 +8,9 @@ import {
   Text
 } from '@hackclub/design-system'
 import { Link } from 'gatsby'
-import Nav from '../components/Nav'
+import Nav from './Nav'
+import Card from './Card'
+import EmailForm from './EmailForm'
 
 const headerFrames = keyframes`
   from {
@@ -51,6 +53,18 @@ const Base = styled(Box.section)`
   + section {
     position: relative;
     top: -1px;
+  }
+
+  ${Card} {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.875);
+    @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+      background: rgba(255, 255, 255, 0.5);
+      -webkit-backdrop-filter: saturate(180%) blur(8px);
+    }
+    ${theme.mediaQueries.reduceTransparency} {
+      background: ${theme.colors.muted} !important;
+    }
   }
 `
 A.link = A.withComponent(Link)
@@ -108,6 +122,9 @@ export default class Header extends PureComponent {
           <Text fontSize={[3, 4]} color="muted" mb={4}>
             June 20–21, 2020 in Chicago (Venue TBA)
           </Text>
+          <Card align="center" ml={[-3, -4]}>
+            <EmailForm />
+          </Card>
         </Container>
       </Base>
     ]
