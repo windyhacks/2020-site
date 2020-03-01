@@ -40,7 +40,9 @@ export default () => (
   <Schedule>
     {data.schedule.map(day => (
       <Box mt={[4, 0]} px={[2, 0]}>
-        <Headline>{day.date}</Headline>
+        <Headline color={theme.colors.alt} fontSize={[5, 6]}>
+          {day.date}
+        </Headline>
         <List mt={3}>
           {day.events.map(event => (
             <Event>

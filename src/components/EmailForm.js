@@ -4,7 +4,7 @@ import * as yup from 'yup'
 import axios from 'axios'
 import jsCookie from 'js-cookie'
 import styled from 'styled-components'
-import { Field, Flex, Text } from '@hackclub/design-system'
+import { Heading, Field, Flex, Text } from '@hackclub/design-system'
 import { theme } from '../theme'
 import Action from '../components/Action'
 
@@ -57,7 +57,7 @@ export default class EmailForm extends React.Component {
 
     return submitted ? (
       <Text mt={4} color="slate" fontSize={4}>
-        Thanks! We’ll notify you when <strong>registration opens</strong>.{' '}
+        Thanks! We’ll notify you when registration opens.{' '}
         <span role="img" aria-label="Blue heart emoji">
           💙
         </span>
@@ -87,9 +87,9 @@ export default class EmailForm extends React.Component {
         >
           {({ values, errors, handleChange, handleSubmit, isSubmitting }) => (
             <form onSubmit={handleSubmit}>
-              <Text color="slate" bold fontSize={[3, 4]} mb={3}>
+              <Heading.h3 color="slate" fontSize={[3, 4]} mb={3}>
                 Sign up now & we’ll notify you when registration opens.
-              </Text>
+              </Heading.h3>
               <Layout>
                 <Field
                   type="email"
