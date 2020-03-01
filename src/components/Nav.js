@@ -3,7 +3,6 @@ import styled from 'styled-components'
 import { Flex, Box, Link as A } from '@hackclub/design-system'
 import { theme } from '../theme'
 import Flag from '../components/Flag'
-import { Link } from 'gatsby'
 
 const Base = styled(Box.withComponent('header')).attrs({
   py: 3,
@@ -23,7 +22,7 @@ const Bar = styled(Flex.withComponent('nav')).attrs({
   color: ${props => theme.cx(props.color)};
 `
 
-const Item = styled(A.withComponent(Link)).attrs({
+const Item = styled(A).attrs({
   fontSize: [2, 3],
   px: [2, 3],
   py: 2
@@ -38,7 +37,8 @@ const Nav = ({ color = 'white', ...props }) => (
   <Base role="banner" {...props}>
     <Bar role="navigation" color={theme.colors[color]}>
       <Flag mr={[2, 3]} />
-      <Item to="/schedule" children="Schedule" />
+      <Item href="#faq" children="FAQ" />
+      <Item href="#schedule" children="Schedule" />
     </Bar>
   </Base>
 )

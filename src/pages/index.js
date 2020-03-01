@@ -16,6 +16,7 @@ import Headline from '../components/Headline'
 import Layout from '../components/Layout'
 import Leadership from '../components/Leadership'
 import Photo from '../components/Photo'
+import Schedule from '../components/Schedule'
 // import Sponsors from '../components/Sponsors'
 // import Judging from '../components/Judging'
 import Video from '../components/Video'
@@ -111,8 +112,8 @@ export default () => (
               Hack Pennsylvania, and helped run Hack Chicago, Hack the Fog, &
               more, reaching 1,000+ students.
             </Text>
-            <LinkOut href="https://hackpenn.com">
-              See one of our previous events
+            <LinkOut href="https://windyhacks.com">
+              See last year’s Windy City Hacks
             </LinkOut>
           </Card>
           <Video aria-label="High school students coding at Hack Chicago 2018">
@@ -197,7 +198,13 @@ export default () => (
         </Grid>
       </Container>
     </Box.section>
-    <Box.section>
+    <Box.section id="schedule">
+      <Container maxWidth={72} width={1} px={3} py={[5, 6]}>
+        <Headline color="alt">Schedule</Headline>
+        <Schedule />
+      </Container>
+    </Box.section>
+    <Box.section id="sponsors">
       <Container maxWidth={72} width={1} px={3} py={[5, 6]}>
         <Headline color="alt">Sponsors</Headline>
         <Lead maxWidth={48} mx={0}>

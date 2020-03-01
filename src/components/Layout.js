@@ -22,7 +22,6 @@ export default ({ bg, children }) => (
         name="viewport"
         content="width=device-width,initial-scale=1,viewport-fit=cover"
       />
-      <link rel="icon" type="image/x-icon" href="/favicon.ico" />
       <meta name="theme-color" content={theme.colors.primary} />
       {meta([
         { name: 'description', content: description },
