@@ -7,18 +7,18 @@ import {
   Text,
   Link as A
 } from '@hackclub/design-system'
-import { theme } from 'theme'
+import { theme } from '../theme'
 import { Link } from 'gatsby'
-import Card from 'components/Card'
-import Footer from 'components/Footer'
-import Header from 'components/Header'
-import Headline from 'components/Headline'
-import Layout from 'components/Layout'
-import Leadership from 'components/Leadership'
-import Photo from 'components/Photo'
-// import Sponsors from 'components/Sponsors'
-// import Judging from 'components/Judging'
-import Video from 'components/Video'
+import Card from '../components/Card'
+import Footer from '../components/Footer'
+import Header from '../components/Header'
+import Headline from '../components/Headline'
+import Layout from '../components/Layout'
+import Leadership from '../components/Leadership'
+import Photo from '../components/Photo'
+// import Sponsors from '../components/Sponsors'
+// import Judging from '../components/Judging'
+import Video from '../components/Video'
 
 const Lead = styled(Container.withComponent(Text)).attrs({
   color: 'black',

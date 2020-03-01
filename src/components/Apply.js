@@ -1,8 +1,8 @@
 import React from 'react'
 import { Section, Container, Text } from '@hackclub/design-system'
-import { theme } from 'theme'
-import Headline from 'components/Headline'
-import Action from 'components/Action'
+import { theme } from '../theme'
+import Headline from '../components/Headline'
+import Action from '../components/Action'
 
 const Apply = props => (
   <Section bg="primary" {...props}>

@@ -5,7 +5,7 @@ import * as yup from 'yup'
 import axios from 'axios'
 import jsCookie from 'js-cookie'
 import { Field, LargeButton, Box, Text, Heading } from '@hackclub/design-system'
-import { theme } from 'theme'
+import { theme } from '../theme'
 
 const REQUIRED_STRING = 'required'
 const INVALID_EMAIL_STRING = 'must be a valid email'

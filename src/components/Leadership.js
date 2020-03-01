@@ -1,6 +1,6 @@
 import React from 'react'
 import { Box, Container, Heading, Text } from '@hackclub/design-system'
-import Leaders from 'components/Leaders'
+import Leaders from '../components/Leaders'
 
 const Leadership = () => (
   <Box.section id="leadership">

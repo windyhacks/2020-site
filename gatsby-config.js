@@ -6,7 +6,6 @@ module.exports = {
     siteUrl: 'https://windyhacks.com'
   },
   plugins: [
-    'gatsby-plugin-resolve-src',
     {
       resolve: 'gatsby-plugin-manifest',
       options: {

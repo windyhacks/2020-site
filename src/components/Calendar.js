@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Text, Flex } from '@hackclub/design-system'
-import { theme } from 'theme'
+import { theme } from '../theme'
 
 const Background = styled(Flex).attrs({
   flexDirection: 'column'

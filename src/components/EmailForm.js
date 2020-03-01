@@ -5,8 +5,8 @@ import axios from 'axios'
 import jsCookie from 'js-cookie'
 import styled from 'styled-components'
 import { Field, Flex, Text } from '@hackclub/design-system'
-import { theme } from 'theme'
-import Action from 'components/Action'
+import { theme } from '../theme'
+import Action from '../components/Action'
 
 const Layout = styled(Flex).attrs({
   flexDirection: ['column', 'row'],

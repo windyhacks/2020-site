@@ -1,12 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Box, Container, Text } from '@hackclub/design-system'
-import { theme } from 'theme'
-import Layout from 'components/Layout'
-import Nav from 'components/Nav'
-import Footer from 'components/Footer'
-import Headline from 'components/Headline'
-import data from 'data'
+import { theme } from '../theme'
+import Layout from '../components/Layout'
+import Nav from '../components/Nav'
+import Footer from '../components/Footer'
+import Headline from '../components/Headline'
+import data from '../data.json'
 
 const List = styled(Text.withComponent('ol'))`
   list-style: none;

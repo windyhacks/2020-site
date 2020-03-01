@@ -1,8 +1,8 @@
 import React from 'react'
 import { Flex, Box, Heading, Link, Text } from '@hackclub/design-system'
 import Icon from '@hackclub/icons'
-import { theme } from 'theme'
-import { urls } from 'data'
+import { theme } from '../theme'
+import { urls } from '../data.json'
 
 const Service = ({ href, service, ...props }) => (
   <Link

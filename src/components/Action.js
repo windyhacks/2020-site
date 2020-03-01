@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { LargeButton, OutlineButton } from '@hackclub/design-system'
-import { theme } from 'theme'
+import { theme } from '../theme'
 import Link from 'gatsby-link'
 
 const Action = ({ is = 'link', ...props }) => {

@@ -8,7 +8,7 @@ import {
   Text
 } from '@hackclub/design-system'
 import { Link } from 'gatsby'
-import Nav from 'components/Nav'
+import Nav from '../components/Nav'
 
 const headerFrames = keyframes`
   from {

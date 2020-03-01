@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Container, theme } from '@hackclub/design-system'
-import data from 'data'
+import data from '../data.json'
 
 const Base = styled(Container).attrs({ maxWidth: 72 })`
   display: grid;

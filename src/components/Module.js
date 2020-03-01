@@ -1,7 +1,7 @@
 import React from 'react'
 import styled, { css } from 'styled-components'
 import { Flex, Heading, Icon, Text } from '@hackclub/design-system'
-import { theme } from 'theme'
+import { theme } from '../theme'
 import PropTypes from 'prop-types'
 
 const Base = styled(Flex).attrs({ flexDirection: 'column' })`

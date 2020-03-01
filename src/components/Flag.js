@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import { Box } from '@hackclub/design-system'
-import theme from 'theme/config'
+import theme from '../theme/config'
 import { Link } from 'gatsby'
 
 const Flag = styled(Box.withComponent(Link)).attrs({

@@ -1,10 +1,10 @@
 import React from 'react'
 import { Container, Heading, Text } from '@hackclub/design-system'
-import { theme } from 'theme'
-import Layout from 'components/Layout'
-import BG from 'components/BG'
-import Nav from 'components/Nav'
-import Action from 'components/Action'
+import { theme } from '../theme'
+import Layout from '../components/Layout'
+import BG from '../components/BG'
+import Nav from '../components/Nav'
+import Action from '../components/Action'
 
 export default () => (
   <Layout>

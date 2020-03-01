@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Flex, Box, Link as A } from '@hackclub/design-system'
-import { theme } from 'theme'
-import Flag from 'components/Flag'
+import { theme } from '../theme'
+import Flag from '../components/Flag'
 import { Link } from 'gatsby'
 
 const Base = styled(Box.withComponent('header')).attrs({

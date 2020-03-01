@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import MapGL, { Marker, NavigationControl } from 'react-map-gl'
 import styled from 'styled-components'
 import { Box } from '@hackclub/design-system'
-import { theme } from 'theme'
+import { theme } from '../theme'
 
 const TOKEN =
   'pk.eyJ1IjoiaGFja2NsdWIiLCJhIjoiY2pscGI1eGdhMGRyNzN3bnZvbGY5NDBvZSJ9.Zm4Zduj94TrgU8h890M7gA'

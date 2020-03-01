@@ -8,8 +8,8 @@ import {
   Heading,
   Text
 } from '@hackclub/design-system'
-import Judges from 'components/Judges'
-import { theme } from 'theme'
+import Judges from '../components/Judges'
+import { theme } from '../theme'
 
 const Category = styled(Badge).attrs({
   fontSize: 3,

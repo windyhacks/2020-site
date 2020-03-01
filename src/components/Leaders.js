@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Box, Flex, Text, Icon, Button, Avatar } from '@hackclub/design-system'
-import { theme } from 'theme'
-import data from 'data'
+import { theme } from '../theme'
+import data from '../data.json'
 
 const Base = styled(Box)`
   display: grid;
