@@ -39,7 +39,6 @@ const Nav = ({ color = 'white', ...props }) => (
     <Bar role="navigation" color={theme.colors[color]}>
       <Flag mr={[2, 3]} />
       <Item to="/schedule" children="Schedule" />
-      <Item to="/venue" children="Venue" />
     </Bar>
   </Base>
 )

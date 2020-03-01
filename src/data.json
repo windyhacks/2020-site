@@ -1,11 +1,11 @@
 {
   "name": "Windy City Hacks",
-  "title": "Windy City Hacks – Chicago’s 2019 high school hackathon",
-  "description": "Register today for 24 hours of coding, fun, free food, and prizes. Windy City Hacks runs June 22–23, 2019 in downtown Chicago, IL with 200+ high school hackers.",
-  "date": "June 22, 2019",
+  "title": "Windy City Hacks – Chicago’s 2020 high school hackathon",
+  "description": "Register today for 24 hours of coding, fun, free food, and prizes. Windy City Hacks runs June 20–21, 2020 in downtown Chicago, IL with 250+ high school hackers.",
+  "date": "June 22, 2020",
   "url": "https://windyhacks.com",
   "twitter": "@windyhacks",
-  "img": "https://windyhacks.com/card_1.png",
+  "img": "https://2019.windyhacks.com/card_1.png",
   "urls": {
     "twitter": "https://twitter.com/windyhacks",
     "instagram": "https://www.instagram.com/windycityhacks",
@@ -18,7 +18,7 @@
     "@type": "Organization",
     "name": "Windy City Hacks",
     "url": "https://windyhacks.com",
-    "logo": "https://windyhacks.com/flag.png",
+    "logo": "https://2019.windyhacks.com/flag.png",
     "sameAs": [
       "https://twitter.com/windyhacks",
       "https://www.instagram.com/windyhacks",
@@ -37,23 +37,12 @@
     "@context": "http://schema.org/",
     "@type": "Event",
     "name": "Windy City Hacks",
-    "startDate": "2019-06-22T12:00",
-    "endDate": "2019-06-23T12:00",
-    "description": "Register today for 24 hours of coding, fun, free food, and prizes. Windy City Hacks returns June 22, 2019.",
+    "startDate": "2020-06-20T12:00",
+    "endDate": "2020-06-21T12:00",
+    "description": "Register today for 24 hours of coding, fun, free food, and prizes. Windy City Hacks returns June 20, 2020.",
     "isAccessibleForFree": true,
     "url": "https://windyhacks.com",
-    "image": "https://windyhacks.com/flag-alt-teal.png",
-    "location": {
-      "@type": "Place",
-      "name": "Origami Risk",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Chicago",
-        "addressRegion": "IL",
-        "postalCode": "60601",
-        "streetAddress": "222 N LaSalle St #2125"
-      }
-    },
+    "image": "https://2019.windyhacks.com/flag-alt-teal.png",
     "sponsor": {
       "@type": "Organization",
       "name": "Hack Club",
@@ -66,8 +55,8 @@
       "price": "0",
       "priceCurrency": "USD",
       "availability": "https://schema.org/InStock",
-      "validFrom": "2019-04-01",
-      "validThrough": "2019-06-22"
+      "validFrom": "2020-03-01",
+      "validThrough": "2020-06-20"
     },
     "performer": {
       "@type": "PerformingGroup",
@@ -76,186 +65,18 @@
   },
   "leaders": [
     { "name": "Matthew Stanciu", "pronouns": "he/him" },
-    { "name": "Lachlan Campbell", "pronouns": "they/them" },
     { "name": "Ava Scherocman", "pronouns": "she/her" },
+    { "name": "Yamilett Estrada-Reyes", "pronouns": "she/her" },
     { "name": "Theo Bleier", "pronouns": "he/him" },
-    { "name": "Joy Liu", "pronouns": "she/her" },
-    { "name": "Michael Parekh", "pronouns": "he/him" },
-    { "name": "Amogh Chaubey", "pronouns": "he/him" }
+    { "name": "Amogh Chaubey", "pronouns": "he/him" },
+    { "name": "Lachlan Campbell", "pronouns": "they/them" }
   ],
-  "sponsors": [
-    {
-      "name": "8th Light",
-      "link": "https://8thlight.com",
-      "image": "8th-light.svg"
-    },
-    {
-      "name": "Origami Risk",
-      "link": "https://www.origamirisk.com/",
-      "image": "origami-risk.png"
-    },
-    {
-      "name": "GitHub",
-      "link": "https://github.com/",
-      "image": "github.png"
-    },
-    {
-      "name": "ActiveCampaign",
-      "link": "https://activecampaign.com",
-      "image": "activecampaign.svg"
-    },
-    {
-      "name": "ServerCentral",
-      "link": "https://www.servercentral.com/",
-      "image": "servercentral.png"
-    },
-    {
-      "name": "Make School",
-      "link": "https://www.makeschool.com/",
-      "image": "make-school.png"
-    },
-    {
-      "name": "Agalmic Ventures",
-      "link": "https://www.agalmicventures.com/",
-      "image": "agalmic.svg"
-    },
-    {
-      "name": "Hearken",
-      "link": "https://wearehearken.com",
-      "image": "hearken.png"
-    },
-    {
-      "name": "Otus",
-      "link": "https://otus.com",
-      "image": "otus.png"
-    },
-    {
-      "name": "Repl.it",
-      "link": "https://repl.it",
-      "image": "replit.png"
-    },
-    {
-      "name": "Rockstar Coders",
-      "link": "https://rockstarcoders.com",
-      "image": "rockstar-coders.png"
-    },
-    {
-      "name": "NowPow",
-      "link": "https://nowpow.com",
-      "image": "nowpow.svg"
-    },
-    {
-      "name": "Showpad",
-      "link": "https://www.showpad.com/",
-      "image": "showpad.svg"
-    },
-    {
-      "name": "Slack",
-      "link": "https://slack.com",
-      "image": "slack.svg"
-    },
-    {
-      "name": "Hack Club Bank",
-      "link": "https://hackclub.com/bank/",
-      "image": "hackclub-bank.svg"
-    }
-  ],
-  "additionalSupport": [
-    {
-      "name": "Sketch",
-      "link": "https://sketchapp.com/",
-      "image": "sketch.svg"
-    },
-    {
-      "name": "Meeting Tomorrow",
-      "link": "https://meetingtomorrow.com",
-      "image": "meetingtomorrow.png"
-    },
-    {
-      "name": "Jellyvision",
-      "link": "https://jellyvision.com",
-      "image": "jellyvision.svg"
-    },
-    {
-      "name": "Quarter Zero",
-      "link": "https://www.quarterzero.com",
-      "image": "quarter-zero.png"
-    },
-    {
-      "name": "Tile",
-      "link": "https://tile.com/",
-      "image": "tile.svg"
-    },
-    {
-      "name": "YouInkIt",
-      "link": "https://youinkit.com",
-      "image": "youinkit.png"
-    },
-    {
-      "name": "tastytrade",
-      "link": "https://www.tastytrade.com/",
-      "image": "tastytrade.png"
-    }
-  ],
-  "judges": [
-    {
-      "name": "Abril Vela",
-      "link": "https://twitter.com/abril_vela",
-      "pronouns": "she/her",
-      "bio": "CS4All coordinator @ Chicago Public Schools. Associate board member of We All Code."
-    },
-    {
-      "name": "Nate Kontny",
-      "link": "https://twitter.com/natekontny",
-      "pronouns": "he/him",
-      "bio": "CTO @ Rockstar Coders, writer, and vlogger. Prev. CEO of Highrise, 2x Y Combinator alum."
-    },
-    {
-      "name": "Mig Reyes",
-      "link": "http://www.migreyes.com/",
-      "pronouns": "he/him",
-      "bio": "Director of Product Design @ Sprout Social. Former President of AIGA Chicago. Prev. led design at Trunk Club, Basecamp, & Threadless."
-    },
-    {
-      "name": "Mica Alaniz",
-      "link": "http://micada.org/",
-      "pronouns": "she/her",
-      "bio": "Engineer @ Democratic National Committee, speaker @ Write/Speak/Code, Girlcon, Latinas in Tech & more, mentor & teacher."
-    },
-    {
-      "name": "Kieran Delaney",
-      "link": "http://kierandelaney.com/",
-      "pronouns": "he/him",
-      "bio": "Department Chair: Graphic Design / Interactive Media & VFX / Animation @ Flashpoint Chicago. Mentor & teacher."
-    },
-    {
-      "name": "Sean Kim",
-      "link": "http://sean.kim/",
-      "pronouns": "he/him",
-      "bio": "Founder @ Chicago Hacks, Hack Chicago, & Code 211. VP of Kappa Pi Beta @ UIC. Hacker, creator, mentor."
-    },
-    {
-      "name": "Jake Albaugh",
-      "link": "https://jakealbaugh.com/",
-      "pronouns": "he/him",
-      "bio": "Director of Platform Strategy @ Vinyl Me, Please. Former Engineer @ CodePen. Tinkerer, hacker, & mentor."
-    },
-    {
-      "name": "Tatyana Shestopalova",
-      "link": "https://zachlatta.com/",
-      "pronouns": "she/her",
-      "bio": "Entrepreneur, mathematician & web developer. Technical Product Manager @ 4Degrees. Founder @ letsgifton.com."
-    },
-    {
-      "name": "Zach Latta",
-      "link": "https://zachlatta.com/",
-      "pronouns": "he/him",
-      "bio": "Founder of Hack Club. Thiel Fellow & Forbes 30 Under 30. Always building."
-    }
-  ],
+  "sponsors": [],
+  "additionalSupport": [],
+  "judges": [],
   "schedule": [
     {
-      "date": "Sat, June 22",
+      "date": "Sat, June 20",
       "events": [
         {
           "time": "10:30am",
@@ -305,7 +126,7 @@
       ]
     },
     {
-      "date": "Sun, June 23",
+      "date": "Sun, June 21",
       "events": [
         {
           "time": "12:00am",
@@ -353,33 +174,6 @@
           "emoji": "😭"
         }
       ]
-    }
-  ],
-  "parking": [
-    {
-      "name": "One Parking 222 LaSalle",
-      "address": "222 N LaSalle Blvd, Chicago, IL 60601",
-      "url": "https://goo.gl/maps/AbrsxNWhdMXjFxsPA"
-    },
-    {
-      "name": "LaSalle Wacker Garage",
-      "address": "121W W Haddock Pl, Chicago, IL 60601",
-      "url": "https://goo.gl/maps/awSfNVAALqtfcbk77"
-    },
-    {
-      "name": "210 North Wells",
-      "address": "210 N Wells St, Chicago, IL 60606",
-      "url": "https://goo.gl/maps/f1Jvm8SzRyCgWjyQA"
-    },
-    {
-      "name": "Chicago Parking Map",
-      "address": "200 N LaSalle St Ste 1540, Chicago, IL 60601",
-      "url": "https://goo.gl/maps/R3iKeWMqG7jjJE6r7"
-    },
-    {
-      "name": "Self Park",
-      "address": "203 N LaSalle Blvd, Chicago, IL 60601",
-      "url": "https://goo.gl/maps/c9ejb2KvPJBfrKuD7"
     }
   ]
 }

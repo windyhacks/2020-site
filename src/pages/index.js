@@ -16,8 +16,8 @@ import Headline from 'components/Headline'
 import Layout from 'components/Layout'
 import Leadership from 'components/Leadership'
 import Photo from 'components/Photo'
-import Sponsors from 'components/Sponsors'
-import Judging from 'components/Judging'
+// import Sponsors from 'components/Sponsors'
+// import Judging from 'components/Judging'
 import Video from 'components/Video'
 
 const Lead = styled(Container.withComponent(Text)).attrs({
@@ -106,7 +106,8 @@ export default () => (
               Building on years of building&nbsp;opportunity.
             </Heading.h3>
             <Text fontSize={3} mt={[2, 3]}>
-              Our team has organized a combined 10+ events, including MAHacks,
+              We ran the inaugural Windy City Hacks in June 2019, but our team
+              has organized a combined 12+ events, including MAHacks,
               Hack Pennsylvania, and helped run Hack Chicago, Hack the Fog, &
               more, reaching 1,000+ students.
             </Text>
@@ -118,7 +119,7 @@ export default () => (
             <source src="/2018/hacking.mp4" type="video/mp4" />
           </Video>
           <Photo
-            aria-label="High school students working together at Hack Pennsylvania 2019"
+            aria-label="High school students working together at Hack Pennsylvania 2020"
             src="/photos/hackpenn_team.jpg"
           />
           <Card>
@@ -213,6 +214,7 @@ export default () => (
             Let’s chat
           </A>
         </Lead>
+        {/*
         <Sponsors section="sponsors" />
         <Headline
           color={theme.colors.slate}
@@ -224,9 +226,10 @@ export default () => (
           Additional support from
         </Headline>
         <Sponsors section="additionalSupport" />
+        */}
       </Container>
     </Box.section>
-    <Judging />
+    {/* <Judging /> */}
     <Leadership />
     <Footer />
   </Layout>

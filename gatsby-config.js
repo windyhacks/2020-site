@@ -6,16 +6,7 @@ module.exports = {
     siteUrl: 'https://windyhacks.com'
   },
   plugins: [
-    {
-      resolve: 'gatsby-plugin-root-import',
-      options: {
-        src: path.join(__dirname, 'src'),
-        components: path.join(__dirname, 'src/components'),
-        pages: path.join(__dirname, 'src/pages'),
-        theme: path.join(__dirname, 'src/theme'),
-        data: path.join(__dirname, 'src/data.json')
-      }
-    },
+    'gatsby-plugin-resolve-src',
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
@@ -48,7 +39,6 @@ module.exports = {
     'gatsby-plugin-sitemap',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-styled-components',
-    'gatsby-plugin-netlify',
     'gatsby-plugin-no-sourcemaps'
   ]
 }
