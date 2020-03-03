@@ -104,23 +104,18 @@
         },
         {
           "time": "2:30pm",
-          "name": "Workshop: Intro to Game Dev",
-          "emoji": "👾"
+          "name": "Workshop: TBA",
+          "emoji": "❓"
         },
         {
           "time": "4:00pm",
-          "name": "Workshop: Web Synthesizer Music",
-          "emoji": "🎹"
+          "name": "Workshop: TBA",
+          "emoji": "❓"
         },
         {
           "time": "6:30pm",
           "name": "Dinner",
           "emoji": "🍽️"
-        },
-        {
-          "time": "8:00pm",
-          "name": "Workshop: AI Robots",
-          "emoji": "🤖"
         }
       ]
     },
@@ -134,11 +129,6 @@
         },
         {
           "time": "2:00am",
-          "name": "DANCE PARTY!",
-          "emoji": "💃"
-        },
-        {
-          "time": "3:30am",
           "name": "Game Break",
           "emoji": "👾"
         },
