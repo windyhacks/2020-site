@@ -113,7 +113,7 @@ export default () => (
               more, reaching 1,000+ students.
             </Text>
             <LinkOut href="https://2019.windyhacks.com">
-              See what happened last year at Windy City Hacks
+              See what happened last year
             </LinkOut>
           </Card>
           <Photo
