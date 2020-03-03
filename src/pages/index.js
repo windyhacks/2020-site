@@ -112,8 +112,8 @@ export default () => (
               Hack Pennsylvania, and helped run Hack Chicago, Hack the Fog, &
               more, reaching 1,000+ students.
             </Text>
-            <LinkOut href="https://windyhacks.com">
-              See last year’s Windy City Hacks
+            <LinkOut href="https://2019.windyhacks.com">
+              See what happened last year at Windy City Hacks
             </LinkOut>
           </Card>
           <Photo
