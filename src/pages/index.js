@@ -116,12 +116,12 @@ export default () => (
               See last year’s Windy City Hacks
             </LinkOut>
           </Card>
-          <Video aria-label="High school students coding at Hack Chicago 2018">
-            <source src="/2018/hacking.mp4" type="video/mp4" />
-          </Video>
           <Photo
-            aria-label="High school students working together at Hack Pennsylvania 2020"
-            src="/photos/hackpenn_team.jpg"
+            aria-label="High school students working together at Windy City hacks 2019"
+            src="/photos/windy_3.jpeg" />
+          <Photo
+            aria-label="Students at a workshop at Windy City Hacks 2019"
+            src="/photos/windy_5.jpeg"
           />
           <Card>
             <Heading.h3 fontSize={[4, 5]} my={0}>
